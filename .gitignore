@@ -1,0 +1,7 @@
+libguestfs/fedora/build.sh  
+libguestfs/fedora/install_libquestfs_fedora.sh
+libguestfs/fedora/package/guestfs/appliance-1.38.tar.gz
+libguestfs/ubuntu/install_libquestfs_ubuntu.sh
+libguestfs/ubuntu/build.sh
+libguestfs/ubuntu/package/guestfs/libguestfs.so.0.504.0
+
