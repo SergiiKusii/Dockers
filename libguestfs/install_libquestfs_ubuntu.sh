@@ -15,11 +15,10 @@ echo "Configuring ..." && \
  --disable-gobject \
  --disable-java \
  --enable-daemon && \
-echo "Making ..." && \
-# TODO first build is failed 
-make && \
-rm po-docs/podfiles && \
-make -C po-docs update-po && \
+echo "Making ..."
+make # TODO first build is failed 
+rm po-docs/podfiles 
+make -C po-docs update-po
 make && \
 echo "Installation ..." && \
 make INSTALLDIRS=vendor DESTDIR=$PWD/build install && \
